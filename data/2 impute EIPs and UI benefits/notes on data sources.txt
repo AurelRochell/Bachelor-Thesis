@@ -1,0 +1,267 @@
+--------------------------------------------------------------------------------------------------------
+"ASEC merge wages.RData" is obtained from IPUMS-CPS with the following settings:
+
+samples included: 
+IPUMS-CPS, January 2020 	
+IPUMS-CPS, February 2020 	
+IPUMS-CPS, March 2020 	
+IPUMS-CPS, ASEC 2020 	
+IPUMS-CPS, April 2020 	
+IPUMS-CPS, May 2020 	
+IPUMS-CPS, June 2020 	
+IPUMS-CPS, July 2020 	
+IPUMS-CPS, August 2020 	
+IPUMS-CPS, September 2020 	
+IPUMS-CPS, October 2020 	
+IPUMS-CPS, November 2020 	
+IPUMS-CPS, December 2020 	
+IPUMS-CPS, January 2021 	
+IPUMS-CPS, February 2021 	
+IPUMS-CPS, March 2021 	
+IPUMS-CPS, ASEC 2021 	
+IPUMS-CPS, April 2021 	
+IPUMS-CPS, May 2021 	
+IPUMS-CPS, June 2021 	
+IPUMS-CPS, July 2021 	
+IPUMS-CPS, August 2021 	
+IPUMS-CPS, September 2021 	
+IPUMS-CPS, October 2021 	
+IPUMS-CPS, November 2021 	
+IPUMS-CPS, December 2021 	
+IPUMS-CPS, March 2022 	
+
+variables included:
+H 	YEAR 		Survey year
+H 	SERIAL 		Household serial number
+H 	MONTH 		Month
+H 	HWTFINL 	Household weight, Basic Monthly
+H 	CPSID 		CPSID, household record
+H 	ASECFLAG 	Flag for ASEC
+H 	ASECWTH 	Annual Social and Economic Supplement Household weight
+H 	GQTYPE 		Household type
+H 	REGION 		Region and division
+H 	CBSASZ 		Core-based statistical area size
+H 	FAMINC 		Family income of householder
+H 	NFAMS 		Number of families in household
+H 	HRHHID 		Household ID, part 1
+H 	HRHHID2 	Household ID, part 2
+P 	PERNUM 		Person number in sample unit
+P 	WTFINL 		Final Basic Weight
+P 	CPSIDP 		CPSID, person record
+P 	ASECWT 		Annual Social and Economic Supplement Weight
+P 	RELATE 		Relationship to household head
+P 	AGE 		Age
+P 	SEX 		Sex
+P 	RACE 		Race
+P 	MARST 		Marital status
+P 	FAMSIZE 	Number of own family members in hh
+P 	NCHILD 		Number of own children in household
+P 	FAMUNIT 	Family unit membership
+P 	FTYPE 		Family Type
+P 	FAMREL 		Relationship to family
+P 	CITIZEN 	Citizenship status
+P 	HISPAN 		Hispanic origin
+P 	EMPSTAT 	Employment status
+P 	LABFORCE 	Labor force status
+P 	OCC 		Occupation
+P 	IND 		Industry
+P 	CLASSWKR 	Class of worker
+P 	ABSENT 		Absent from work last week
+P 	DURUNEM2 	Continuous weeks unemployed, intervalled
+P 	DURUNEMP 	Continuous weeks unemployed
+P 	WKSTAT 		Full or part time status
+P 	EDUC 		Educational attainment recode
+P 	DIFFANY 	Any difficulty
+P 	MARBASECIDP 	Unique identifier for linking March Basic to ASEC
+P 	CLASSWLY 	Class of worker last year
+P 	FULLPART 	Worked full or part time last year
+P 	FTOTVAL 	Total family income
+P 	INCWAGE 	Wage and salary income
+P 	INCBUS 		Non-farm business income
+P 	INCFARM 	Farm income
+P 	HOURWAGE 	Hourly wage
+
+
+--------------------------------------------------------------------------------------------------------
+"Earnings_matching.RData" is obtained from IPUMS-CPS with the following settings:
+
+samples included:
+IPUMS-CPS, January 2019 	
+IPUMS-CPS, February 2019 	
+IPUMS-CPS, March 2019 	
+IPUMS-CPS, April 2019 	
+IPUMS-CPS, May 2019 	
+IPUMS-CPS, June 2019 	
+IPUMS-CPS, July 2019 	
+IPUMS-CPS, August 2019 	
+IPUMS-CPS, September 2019 	
+IPUMS-CPS, October 2019 	
+IPUMS-CPS, November 2019 	
+IPUMS-CPS, December 2019 	
+IPUMS-CPS, January 2020 	
+IPUMS-CPS, February 2020 	
+IPUMS-CPS, March 2020 	
+IPUMS-CPS, April 2020 	
+IPUMS-CPS, May 2020 	
+IPUMS-CPS, June 2020 	
+IPUMS-CPS, July 2020 	
+IPUMS-CPS, August 2020 	
+IPUMS-CPS, September 2020 	
+IPUMS-CPS, October 2020 	
+IPUMS-CPS, November 2020 	
+IPUMS-CPS, December 2020 	
+IPUMS-CPS, January 2021 	
+IPUMS-CPS, February 2021 	
+IPUMS-CPS, March 2021 	
+IPUMS-CPS, April 2021 	
+IPUMS-CPS, May 2021 	
+IPUMS-CPS, June 2021 	
+IPUMS-CPS, July 2021 	
+IPUMS-CPS, August 2021 	
+IPUMS-CPS, September 2021 	
+IPUMS-CPS, October 2021 	
+IPUMS-CPS, November 2021 	
+IPUMS-CPS, December 2021 	
+IPUMS-CPS, January 2022 	
+IPUMS-CPS, February 2022 	
+IPUMS-CPS, March 2022 	
+IPUMS-CPS, April 2022 	
+IPUMS-CPS, May 2022 	
+IPUMS-CPS, June 2022 	
+IPUMS-CPS, July 2022 	
+IPUMS-CPS, August 2022 	
+IPUMS-CPS, September 2022 	
+IPUMS-CPS, October 2022 	
+IPUMS-CPS, November 2022 	
+IPUMS-CPS, December 2022
+
+variables included:
+H 	YEAR 		Survey year
+H 	SERIAL 		Household serial number
+H 	MONTH 		Month
+H 	HWTFINL 	Household weight, Basic Monthly
+H 	CPSID 		CPSID, household record
+H 	ASECFLAG 	Flag for ASEC
+H 	MISH 		Month in sample, household level
+H 	HRHHID 		Household ID, part 1
+H 	HRHHID2 	Household ID, part 2
+P 	PERNUM 		Person number in sample unit
+P 	WTFINL 		Final Basic Weight
+P 	CPSIDP 		CPSID, person record
+P 	EARNWT 		Earnings weight
+P 	EARNWEEK 	Weekly earnings
+
+
+--------------------------------------------------------------------------------------------------------
+"UI_next_month.RData" is obtained from IPUMS-CPS with the following settings:
+
+samples included:
+IPUMS-CPS, January 2020 	
+IPUMS-CPS, February 2020 	
+IPUMS-CPS, March 2020 	
+IPUMS-CPS, April 2020 	
+IPUMS-CPS, May 2020 	
+IPUMS-CPS, June 2020 	
+IPUMS-CPS, July 2020 	
+IPUMS-CPS, August 2020 	
+IPUMS-CPS, September 2020 	
+IPUMS-CPS, October 2020 	
+IPUMS-CPS, November 2020 	
+IPUMS-CPS, December 2020 	
+IPUMS-CPS, January 2021 	
+IPUMS-CPS, February 2021 	
+IPUMS-CPS, March 2021 	
+IPUMS-CPS, April 2021 	
+IPUMS-CPS, May 2021 	
+IPUMS-CPS, June 2021 	
+IPUMS-CPS, July 2021 	
+IPUMS-CPS, August 2021 	
+IPUMS-CPS, September 2021 	
+IPUMS-CPS, October 2021 	
+IPUMS-CPS, November 2021 	
+IPUMS-CPS, December 2021 	
+IPUMS-CPS, January 2022
+
+variables included:
+H 	YEAR 		Survey year
+H 	SERIAL 		Household serial number
+H 	MONTH 		Month
+H 	HWTFINL 	Household weight, Basic Monthly
+H 	CPSID 		CPSID, household record
+H 	ASECFLAG 	Flag for ASEC
+H 	MISH 		Month in sample, household level
+H 	NUMPREC 	Number of person records following
+H 	GQTYPE 		Household type
+H 	HHINTYPE 	Type of household
+H 	REGION 		Region and division
+H 	STATEFIP 	State (FIPS code)
+H 	METRO 		Metropolitan central city status
+H 	STATECENSUS 	State (Census code)
+H 	CBSASZ 		Core-based statistical area size
+H 	FAMINC 		Family income of householder
+H 	NFAMS 		Number of families in household
+H 	NCOUPLES 	Number of married couples in household
+H 	NMOTHERS 	Number of mothers in household
+H 	NFATHERS 	Number of fathers in household
+H 	HRHHID 		Household ID, part 1
+H 	HRHHID2 	Household ID, part 2
+H 	HHRESPLN 	Line number of household respondent
+H 	INTTYPE 	Interview type
+P 	PERNUM 		Person number in sample unit
+P 	WTFINL 		Final Basic Weight
+P 	CPSIDP 		CPSID, person record
+P 	RELATE 		Relationship to household head
+P 	AGE 		Age
+P 	SEX 		Sex
+P 	RACE 		Race
+P 	MARST 		Marital status
+P 	POPSTAT 	Adult civilian, armed forces, or child
+P 	VETSTAT 	Veteran status
+P 	MOMLOC 		Person number of first mother (from programming)
+P 	POPLOC 		Person number of first father (from programming)
+P 	SPLOC 		Person number of spouse (from programming)
+P 	FAMSIZE 	Number of own family members in hh
+P 	NCHILD 		Number of own children in household
+P 	FAMUNIT 	Family unit membership
+P 	NSIBS 		Number of own siblings in household
+P 	FTYPE 		Family Type
+P 	FAMREL 		Relationship to family
+P 	BPL 		Birthplace
+P 	YRIMMIG 	Year of immigration
+P 	CITIZEN 	Citizenship status
+P 	EMPSTAT 	Employment status
+P 	LABFORCE 	Labor force status
+P 	OCC 		Occupation
+P 	IND 		Industry
+P 	CLASSWKR 	Class of worker
+P 	UHRSWORKT 	Hours usually worked per week at all jobs
+P 	ABSENT 		Absent from work last week
+P 	DURUNEM2 	Continuous weeks unemployed, intervalled
+P 	DURUNEMP 	Continuous weeks unemployed
+P 	WHYUNEMP 	Reason for unemployment
+P 	WHYABSNT 	Reason for absence from work
+P 	WNLOOK 		Main reason not looking for work during last four weeks
+P 	WKSTAT 		Full or part time status
+P 	NUMJOB 		How many jobs had in past week
+P 	STATECERT 	Has government-issued professional certification or licesnse
+P 	WRKOFFER 	Could have started a job during the last week if one was offered
+P 	EDUC 		Educational attainment recode
+P 	EDCYC 		Years of college credit completed
+P 	EDDIPGED 	High school or GED
+P 	SCHLCOLL 	School or college attendance
+P 	DIFFANY 	Any difficulty
+P 	EARNWT 		Earnings weight
+P 	LINENO 		Line number on original form
+P 	PANLWT 		Month-to-month panel weight
+P 	EARNWEEK 	Weekly earnings
+P 	COVIDUNAW 	Unable to work due to COVID-19 pandemic
+P 	COVIDPAID 	Received pay for hours not worked due to the COVID-19 pandemic
+P 	COVIDLOOK 	Prevented from looking for work due to COVID-19 pandemic
+
+
+--------------------------------------------------------------------------------------------------------
+For sources for the files "PEUC Activities.csv", "PUA Activities.csv", "Recipiency Rates States.xlsx" and "State UI Activities.csv" see the thesis.
+
+
+--------------------------------------------------------------------------------------------------------
+"raw data 2020-2021.RData" is the same as the file "main sample raw.RData" in folder "1 create sample"
